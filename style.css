@@ -1,11 +1,19 @@
+
+#wrapper {
+
+
+}
+
 nav {
     width: 10em;
     float: left;
+    background-color: aqua;
 }
 
 #content {
     float: left;
 }
+
 
 header h1{
     color: blueviolet;
