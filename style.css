@@ -2,6 +2,7 @@
 #wrapper {
     width:90%;
     margin: auto;
+    display: flex;
 
 
 }
@@ -10,11 +11,12 @@ nav {
     width: 20%;
     float: left;
     background-color: aqua;
+    
 }
 
 #content {
     width:80%;
-    float: right; 
+    float: right;
     background-color: beige;
 }
 
