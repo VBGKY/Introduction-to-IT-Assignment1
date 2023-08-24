@@ -10,26 +10,25 @@
 nav {
     width: 20%;
     float: left;
-    background-color: aqua;
+    background-color:#974EC3;
     
 }
 
 #content {
     width:80%;
     float: right;
-    background-color: beige;
+    background-color:#504099;
 }
 
 
 header h1{
-    color: blueviolet;
+    color: darkturquoise;
 }
 
-header h2 {
-    color: orange;
 }
 #main h1{
     font-style: italic;
+    color: aliceblue;
 }
 
 .payAttention {
