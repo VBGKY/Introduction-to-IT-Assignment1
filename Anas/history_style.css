@@ -1,17 +1,43 @@
+/* Anas */
+
+@font-face {
+    font-family: 'retro';
+    src: url('/Users/anas/UC/Intro to IT/Group Assignement 1/Introduction-to-IT-Assignment1/assets/fonts/Retro Gaming.ttf');
+}
+
 html, body {
+    background-color: #140836;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
     box-sizing: border-box;
 }
 
+h1 {
+    color: #781d86;
+}
+
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
-    background-image: url("/assets/history_pic_header.jpg");
+    background-image: url('/Users/anas/UC/Intro to IT/Group Assignement 1/Introduction-to-IT-Assignment1/assets/pics/history_header_3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
     text-align: center;
+    background-color: burlywood;
     padding: 5%;
-    background-color: teal;
     width: auto;
-    height: 20%;
+    height: 300px;
+}
+
+#header_title {
+    font-family: retro;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #ececec;
 }
 
 #wrapper {
@@ -28,31 +54,53 @@ nav {
     width: 20%;
 }
 
-nav a {
-    display: block;
-    padding: 20px;
-    margin: auto;
-    text-decoration: none;
-    height: 10px;
+nav ul {
+    padding: 0;
 }
 
-nav a:hover {
-    background-color: bisque;
+nav ul li a {
+    list-style: none;
+    display: block;
+    font-size: 1.6rem;
+    color: #e6e6e6;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1e0d48;
 }
 
 
 main {
     position: relative;
-    padding: 20px;
+    margin-right: 30px;
+    padding: 0 30px;
     right: 0;
     height: auto;
-    background-color: grey;
+}
+
+main p {
+    color: #e6e6e6;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(87, 23, 95, 0.3);
 }
 
 footer {
     position: relative;
+    margin-right: 30px;
     padding: 20px;
     right: 0;
     height: auto;
-    background-color: dimgrey;
+    border-top: 2px solid #781d86; 
+}
+
+footer p {
+    color: #781d86;
 }
