@@ -3,8 +3,13 @@
     width:100%;
     margin: auto;
     display: flex;
+    height: 100vh;
 
 
+}
+
+header{
+    height: 50px;
 }
 
 nav {
@@ -18,4 +23,8 @@ nav {
     width:80%;
     float: right;
     background-color:#8CABFF;
+}
+
+footer{
+    height: 60px;
 }
