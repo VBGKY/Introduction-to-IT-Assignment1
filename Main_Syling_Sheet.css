@@ -20,6 +20,11 @@ header{
     
 }
 
+.menu a {
+    display: block;
+    padding: 20px;
+}
+
 .menu a:hover{
     background-color: beige;
 
@@ -34,7 +39,7 @@ header{
     width:80%;
     float: right;
     background-color:#8CABFF;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
 
 
