@@ -12,11 +12,23 @@ header{
     height: 50px;
 }
 
-nav {
+.menu {
     width: 20%;
     float: left;
     background-color:#974EC3;
+    color: aliceblue;
+    overflow: hidden;
     
+}
+
+.menu a:hover{
+    background-color: beige;
+
+}
+
+.menu a.current_page {
+    background-color: aqua;
+    color: blue;
 }
 
 #content {
