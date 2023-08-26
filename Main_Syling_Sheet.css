@@ -1,4 +1,6 @@
 
+
+/*ID created called Wrapper for entire page. Created for formatting entire content  */
 #wrapper {
     width:100%;
     margin: auto;
@@ -7,30 +9,42 @@
 
 }
 
+/*External styling to control the height and text alignment within the header  */
 header{
     height: 60px;
     text-align: center;
 }
 
+/*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
 .menu {
     width: 20%;
     float: left;
     background-color:#974EC3;
-    color: aliceblue;
     overflow: hidden;
     
 }
 
+/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag. 
+This is currently styling how the navigaitonal bar is displayed, the padding around each section and removing the text decorations */
 .menu a {
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
+
+/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the secitons. 
+This is currently styling so that when the user hovers over a particular page the colour of the background changes */
 .menu a:hover{
     background-color: beige;
 
 }
 
+
+/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
+associated with a class called current_page. 
+This is currently styling that the page which is open and active will have a different coloured backgorund. This is to inform the user that this is
+the page they are currently on */
 .menu a.current_page {
     background-color: aqua;
     color: blue;
