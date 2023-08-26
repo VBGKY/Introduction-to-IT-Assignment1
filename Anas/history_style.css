@@ -1,10 +1,12 @@
-* {
+html, body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: auto;
     box-sizing: border-box;
 }
 
 header {
+    background-image: url("/assets/history_pic_header.jpg");
     text-align: center;
     padding: 5%;
     background-color: teal;
@@ -21,7 +23,6 @@ header {
 
 nav {
     position: absolute;
-    background-color: beige;
     left: 0;
     height: auto;
     width: 20%;
@@ -32,7 +33,6 @@ nav a {
     padding: 20px;
     margin: auto;
     text-decoration: none;
-    width: auto;
     height: 10px;
 }
 
@@ -45,7 +45,7 @@ main {
     position: relative;
     padding: 20px;
     right: 0;
-    height: 100%;
+    height: auto;
     background-color: grey;
 }
 
@@ -53,6 +53,6 @@ footer {
     position: relative;
     padding: 20px;
     right: 0;
-    height: 10%;
+    height: auto;
     background-color: dimgrey;
 }
