@@ -1,6 +1,6 @@
 
 #wrapper {
-    width:90%;
+    width:100%;
     margin: auto;
     display: flex;
 
@@ -18,19 +18,4 @@ nav {
     width:80%;
     float: right;
     background-color:#8CABFF;
-}
-
-
-header h1{
-}
-
-}
-#main h1{
-    font-style: italic;
-    color: ;
-}
-
-.payAttention {
-    color: red;
-    font-weight: bold;
 }
