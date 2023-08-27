@@ -15,6 +15,13 @@
     <meta charset="utf-8">
     <!--Linking an external styling sheet, should alway be placed within the head-->
     <link href="Main_Syling_Sheet.css" rel="stylesheet" />
+
+    <!--Internal Styling modificatins for H1, H2 and Paragraph tags within the HTML page-->
+    <style>
+        h1{color: #ececec;}
+        h2{color: #781d86;}
+        p{color:  #ececec;}
+    </style>
 </head>
 
 <!--The following is the body section, all components such as the Header, Nav, Div and Footer are always contained within here-->
@@ -33,11 +40,11 @@
         <nav class="menu">
 
              <!--Inline styling used to place the text within the center of the element.-->
-            <p style="text-align: center; color: aliceblue;">MENU</p>
+            <p style="text-align: center;">MENU</p>
 
-            <a class="current_page" href="top_ten_arcade_games.html">Top Ten Arcade Games</a>
-            <a href="history.html">History</a>
-            <a href="contact.html">Contact Us</a>
+            <a class="current_page" href="top_ten_arcade_games.html">TOP TEN ARCADE GAMES</a>
+            <a href="history.html">HISTORY</a>
+            <a href="contact.html">CONTACT US</a>
             
         </nav>
         
@@ -46,10 +53,13 @@
 
                 <main>          
                     <h1 style="text-align: center;"> 10 Ten Grossing Arcade Games</h1>
-                    <p> Top 10 shall be placed here.</p>
+                    <section>
+                        <h2>Sub Heading</h2>
+                        <p> Top 10 shall be placed here.</p>
+                    </section>
                 </main>
                 
-                <footer style="background-color:#4477CE; color: aliceblue; text-align: center;">
+                <footer style="color: #781d86; background-color: #140836; text-align: center;"
                     <p> Introduction to Information Technology (4478): Assignment 1 <br> Viktoria Halas (), Anas Maaz (), Adrien Prego (), Ahsan Ali () and Victoria Breu (U3187870) &copy; 2023</p>
                 </footer>
         </div>
