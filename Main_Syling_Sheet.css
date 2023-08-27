@@ -11,8 +11,13 @@
 
 /*External styling to control the height and text alignment within the header  */
 header{
-    height: 60px;
+    height: 300px;
     text-align: center;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 5%;
+    width: auto;
+    height: 300px;
 }
 
 /*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
