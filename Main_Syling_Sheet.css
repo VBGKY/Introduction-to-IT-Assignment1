@@ -80,7 +80,7 @@ section {
 }
 
 footer{
-    position:absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     border-top: 2px solid #781d86;
