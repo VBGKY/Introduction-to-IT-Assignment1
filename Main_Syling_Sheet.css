@@ -1,9 +1,4 @@
 
-
-html, body{
-    background-color: #140836;
-    margin: 0;
-}
 /*ID created called Wrapper for entire page. Created for formatting entire content  */
 #wrapper {
     width:100%;
@@ -49,8 +44,7 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
 This is currently styling so that when the user hovers over a particular page the colour of the background changes */
 .menu a:hover{
     background-color: #1e0d48;
-    box-sizing: border-box;
-    border-radius: 10px;
+    border-radius:10px;
 
 }
 
