@@ -1,18 +1,5 @@
 /* Anas */
 
-@font-face {
-    font-family: 'retro';
-    src: url('assets/fonts/Retro Gaming.ttf');
-}
-
-html, body {
-    background-color: #140836;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    height: auto;
-    box-sizing: border-box;
-}
-
 h2 {
     color: #781d86;
 }
