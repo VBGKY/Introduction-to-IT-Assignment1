@@ -1,0 +1,80 @@
+<!--Introduction to Information Technology (4478): Assignment 1 - Design elements in HTML -->
+<!--The following is the formulation of the Top Ten Arcade Games HTML Page -->
+
+<!--Created by Victoria Frieda Breu (U3187870) -->
+<!--Credit for the chosen colour pallete, fonts and assets is credited to Anas Maaz -->
+
+<!--Type of doccument-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Title within the webpage bar-->
+    <title>
+        References
+    </title>
+
+    <!--Specifies the Unicode for special characters to be used within the website-->
+    <meta charset="utf-8">
+    <!--Linking an external styling sheet, should alway be placed within the head-->
+    <link href="Main_Syling_Sheet.css" rel="stylesheet" />
+
+    <!--Internal Styling modificatins for H1, H2, Paragraph tags and header image within the HTML page-->
+    <style>
+        h1{color: #ececec;}
+        h2{color: #781d86;}
+        p{color:  #ececec;}
+        header{background-image: url(assets/pics/history_header.jpg);}
+    </style>
+</head>
+
+
+<!--The following is the body section, all components such as the Header, Nav, Div and Footer are contained within here-->
+<body>
+
+    <header>
+        <!--Inline styling to see where the header specifically is-->
+        <h1> Website name to go here</h1>
+    </header>
+
+    <!--Overarching Wrapper for the main content-->
+    <div id="wrapper">
+
+        <!--Formatting DIV for the menu/navigation. Addtionally created a class known as "menu" to allow for styling and formatting control-->
+        <nav class="menu">
+
+             <!--Inline styling used to place the text within the center of the element.-->
+            <p style="text-align: center;">MENU</p>
+
+            <a class="current_page" href="top_ten_arcade_games.html">TOP TEN ARCADE GAMES</a>
+            <a href="Anas/history.html">HISTORY</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="Ahsan/pacman.html">PACMAN</a>
+            <img src="assets/pics/Ms.-Pac-Man-Transparent-Images.png" width="150" height="150" style="display: block; margin-left: auto; margin-right: auto;" >
+            
+        </nav>
+        
+        <!--Div created for the rest of the content which includes the main and footer. An ID was also created for formatting and styling control.-->
+        <div id="content">
+
+                <main>          
+                    <h1 style="text-align: center;"> References</h1>
+                    
+                    <section style="text-align: center; border: 2px solid #781d86;">
+                        <h2>Welcome dear traveler </h2>
+                        <p> Dear Traveler, <br> It is good to see you again as your journey across the pages comes to a close. A wise man once told me that information does not come from nowhere and that properly sighting your sources in Harward style is the correct thing to do. Here you may find the various sources and spellbooks that were used to create this magical place.</p>
+                    </section>
+                </main>
+                
+                
+                <footer style="color: #781d86; background-color: #140836; text-align: center;">
+                    <p> Introduction to Information Technology (4478): Assignment 1 <br> Viktoria Halas (U3069684), Anas Maaz (U3246741), Adrien Prego (U3222322), Ahsan Ali (U3265212) and Victoria Breu (U3187870) &copy; 2023</p>
+                </footer>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
