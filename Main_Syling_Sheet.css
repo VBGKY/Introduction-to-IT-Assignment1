@@ -36,7 +36,7 @@ header{
     background-color:#140836;
     color: #ececec;
     overflow: hidden;
-    padding-top: 80px;
+    padding-top: 20px;
     
 }
 
@@ -49,18 +49,48 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     color: #ececec;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.6rem;
+    border-radius:  10px;
     
 }
 
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the seciton. 
-This is currently styling so that when the user hovers their mouse over a particular page, the colour of the background changes */
-.menu a:hover{
+This is currently styling so that when the user hovers their mouse over a particular page, the colour of the background changes */  
+.menu .subnav:hover, .subnavbtn{
     background-color: #1e0d48;
     border-radius:  10px;
 
 }
+.subnav {
+    overflow:hidden;
+    float: left;
+    width: 100%;
+}
 
+.subnav .subnavbtn {
+    display: block;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    background-color: #140836;
+    width: 20%;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #140836;
+    width: 20%;
+    z-index: 1;
+}
+
+.subnav:hover .subnav-content{
+    display: block;
+    width: 20%;
+}
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
 associated with a class called current_page. 
@@ -80,7 +110,7 @@ the page the */
     float: right;
     background-color:#140836;
     min-height: fit-content;
-    position: relative;
+    position:relative
 }
 
 /*External CSS altering the colour of the font for any HTML elements within the content ID section that used the <a> HTML tag.*/
