@@ -9,7 +9,7 @@
 
 }
 
-/*External styling to control the height and text alignment within the header  */
+/*External styling CSS to control the height and text alignment within the header  */
 header{
     height: 100px;
     text-align: center;
@@ -60,6 +60,8 @@ the page the */
     border-radius: 10px;
 }
 
+
+/*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location background colour, minimum height and position of the elements contained with contents*/
 #content {
     width:80%;
     float: right;
@@ -70,6 +72,8 @@ the page the */
 
 }
 
+
+/*External styling CSS to style the styling of the section boarders, margins, padding and background colour.*/
 section {
     box-sizing: border-box;
     margin: 20px;
