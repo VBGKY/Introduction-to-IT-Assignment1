@@ -19,3 +19,7 @@ html, body {
     margin-top: 10%;
     color: #ececec;
 }
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
