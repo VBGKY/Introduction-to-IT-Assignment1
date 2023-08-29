@@ -12,3 +12,10 @@ html, body {
     height: auto;
     box-sizing: border-box;
 }
+
+#header_title {
+    font-family: retro;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #ececec;
+}
