@@ -1,102 +1,115 @@
-* {
+/* ahsan */
+
+@font-face {
+    font-family: 'retro';
+    src: url('C:\Users\Sharoz Rafiq Baig\Desktop\PACMAN\Introduction-to-IT-Assignment1\assets\fonts\Retro Gaming.ttf');
+}
+
+html, body {
+    background-color: rgb(10, 10, 10);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-
-}
-
-header {
-    text-align: center;
-    padding: 5%;
-    background-color: rgb(0,0,0);
-    width: auto;
-    height: 20%;
-}
-.body {
-    background-color: #000000;
-}
-
-#wrapper {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    left: 20%;
-    background-color: #000000;
-}
-
-
-.section {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;}
-nav {
-    position: absolute;
-  
-    left: 0;
     height: auto;
-    width: 20%;
-    height: 100%;
-    color: aliceblue;
+    box-sizing: border-box;
 }
-
-nav a 
-{
-    display: block;
-    padding: 20px;
-    margin: auto;
-    text-decoration: none;
-    width: auto;
-    height: 10px;
-    
-    
-}
-
-
-nav a:hover 
-{
-    background-color: rgb(10, 10, 10);
-    color: aliceblue;
-}
-
-
-main 
-{
-    position: relative;
-    padding: 20px;
-    right: 0;
-    height: 100%;
-    background-color: rgb(5, 5, 5);
-    color: aliceblue;
-}
-
-footer {
-    position: relative;
-    padding: 20px;
-    right: 0;
-    height: 10%;
-    
-    color:rgb(0, 0, 0);
-}
-
-#main_heading {
+h1 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 6rem;
     padding: 20px;
     margin: 15px;
     z-index: 1;
-    opacity: 0.8;
-    background-color: yellow;
-    color: aliceblue;
+    
+    color:yellow;
+    
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #781d86;
+}
+
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-image: url(Pacman1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    background-color: burlywood;
+    padding: 5%;
+    width: auto;
+    height: 300px;
+}
+
+
+
+
+#wrapper {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 20%;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: 20%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li a {
+    list-style: none;
+    display: block;
+    font-size: 1.6rem;
+    color: #e6e6e6;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0d061f;
+}
+
+
+main {
+    position: relative;
+    margin-right: 30px;
+    padding: 0 30px;
+    right: 0;
+    height: auto;
+}
+
+main p {
+    color: #e6e6e6;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 10, 10);
+    /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
+}
+
+footer {
+    position: relative;
+    margin-right: 30px;
+    padding: 20px;
+    right: 0;
+    height: auto;
+    border-top: 2px solid #781d86; 
+}
+
+footer p {
+    color: #781d86;
 }
