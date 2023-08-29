@@ -84,4 +84,6 @@ footer{
     bottom: 0;
     width: 100%;
     border-top: 2px solid #781d86;
+    background-color: #140836;
+    text-align: center;
 }
