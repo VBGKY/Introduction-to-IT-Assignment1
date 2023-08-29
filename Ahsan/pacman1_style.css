@@ -12,6 +12,7 @@ html, body {
     height: auto;
     box-sizing: border-box;
 }
+
 h1 {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -49,9 +50,6 @@ header {
     opacity: 0.7;
 }
 
-
-
-
 #wrapper {
     position: absolute;
     width: 80%;
@@ -83,7 +81,6 @@ nav ul li a:hover {
     background-color: #0d061f;
 }
 
-
 main {
     position: relative;
     margin-right: 30px;
@@ -102,7 +99,7 @@ section {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(10, 10, 10, 10);
-    /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
+    
 }
 
 footer {
