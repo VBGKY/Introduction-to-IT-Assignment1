@@ -19,11 +19,12 @@
     <meta charset="utf-8">
     <!--Linking an external styling sheet, should alway be placed within the head-->
     <link href="Main_Syling_Sheet.css" rel="stylesheet" />
+    <link href="master_style.css" rel="stylesheet"/>
 
     <!--Internal Styling modificatins for H1, H2, Paragraph tags and header image within the HTML page-->
     <style>
         h1{color: #ececec;}
-        h2{color: #781d86;}
+        h2{color: #781d86; font-family: 'Courier New', Courier, monospace;}
         p{color:  #ececec;}
         header{background-image: url(assets/pics/history_header.jpg);}
         table{width: 100%;}
@@ -44,8 +45,7 @@
 <body>
 
     <header>
-        <!--Inline styling to see where the header specifically is-->
-        <h1> Website name to go here</h1>
+        <h1 id="header_title"> Top Ten Arcade Games</h1>
     </header>
 
     <!--Overarching Wrapper for the main content-->
@@ -57,7 +57,7 @@
              <!--Inline styling used to place the text within the center of the element.-->
 
             <a class="current_page" href="top_ten_arcade_games.html">TOP TEN ARCADE GAMES</a>
-            <a href="Anas/history.html">HISTORY</a>
+            <a href="history.html">HISTORY</a>
             <a href="contact.html">CONTACT US</a>
             <a href="Ahsan/pacman.html">PACMAN</a>
             <img src="assets/pics/Ms.-Pac-Man-Transparent-Images.png" width="150" height="150" style="display: block; margin-left: auto; margin-right: auto;" >
@@ -67,8 +67,7 @@
         <!--Div created for the rest of the content which includes the main and footer. An ID was also created for formatting and styling control.-->
         <div id="content">
 
-                <main>          
-                    <h1 style="text-align: center;"> Top 10 Grossing Arcade Games</h1>
+                <main>
 
                     <!--The content has been seperated into individual sections for allow for seamless user readability.-->
                     <section style="text-align: center; border: 2px solid #781d86;">

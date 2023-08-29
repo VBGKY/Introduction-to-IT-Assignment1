@@ -1,3 +1,9 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+
+}
 
 /*ID created called Wrapper for entire page. Created for formatting entire content  */
 #wrapper {
@@ -10,12 +16,15 @@
 
 /*External styling CSS to control the height and text alignment within the header  */
 header{
-    height: 100px;
-    text-align: center;
+    height: 300px;
     background-size: 100% 100%;
     background-position: center;
     padding: 5%;
     width: auto;
+}
+
+#header_title{
+    text-align: center;
 }
 
 /*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
@@ -35,7 +44,8 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: #ececec
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -44,7 +54,7 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
 This is currently styling so that when the user hovers over a particular page the colour of the background changes */
 .menu a:hover{
     background-color: #1e0d48;
-    border-radius:10px;
+    border-radius:  10px;
 
 }
 
