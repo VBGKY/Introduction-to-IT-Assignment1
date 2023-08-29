@@ -1,5 +1,9 @@
 
 
+html, body{
+    background-color: #140836;
+    margin: 0;
+}
 /*ID created called Wrapper for entire page. Created for formatting entire content  */
 #wrapper {
     width:100%;
@@ -26,6 +30,7 @@ header{
     background-color:#140836;
     color: #ececec;
     overflow: hidden;
+    padding-top: 80px;
     
 }
 
@@ -36,6 +41,7 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     padding: 20px;
     text-decoration: none;
     color: #ececec
+    
 }
 
 
