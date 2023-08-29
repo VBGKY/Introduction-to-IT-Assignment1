@@ -46,6 +46,7 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     text-decoration: none;
     color: #ececec;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
     
 }
 
@@ -90,6 +91,7 @@ section {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
+    border: 2px solid #781d86;
 
 }
 
