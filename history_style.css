@@ -20,13 +20,6 @@ header {
     height: 300px;
 }
 
-#header_title {
-    font-family: retro;
-    font-size: 3rem;
-    margin-top: 10%;
-    color: #ececec;
-}
-
 #wrapper {
     position: absolute;
     width: 80%;
