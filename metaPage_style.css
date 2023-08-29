@@ -22,7 +22,7 @@ p, a {
 }
 
 header {
-    background-image: url(assets/pics/meta_header.jpg);
+    background-image: url('assets/pics/meta_header.jpg');
     background-repeat: no-repeat;
     background-size: 100% 170%;
     background-position: center;
