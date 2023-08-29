@@ -27,15 +27,12 @@ p, a {
 }
 
 header {
-    background-image: url('/assets/pics/history_header.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    height: 300px;
     text-align: center;
-    background-color: burlywood;
+    background-size: 100% 130%;
+    background-position: center;
     padding: 5%;
     width: auto;
-    height: 300px;
 }
 
 #header_title {
