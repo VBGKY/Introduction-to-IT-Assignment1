@@ -1,0 +1,162 @@
+h1{
+    color:#ffffff
+    
+  }
+  
+  h2{
+    color:#ffffff
+  }
+  
+  h3{
+    color:#ffffff
+  }
+  
+  h4{
+    color:#ffffff
+  }
+  
+  form{
+    color:#ffffff;
+    line-height: 2;
+  }
+  
+  p{
+    color:#ffffff
+  }
+  
+  li{
+    color:#ffffff;
+    font-size:20px
+  }
+  
+  #header_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  #div_1 {
+    width:20%;
+    float:left;
+  }
+  
+  #div_form1 {
+    width:25%;
+    float:left;
+  }
+  
+  #fname {
+    height:30px; 
+    width:250px"
+  }
+  
+  #lname {
+    height:30px; 
+    width:250px"
+  }
+  
+  #email {
+    height:30px; 
+    width:250px"
+  }
+  
+  #phone {
+    height:30px; 
+    width:250px"
+  }
+  
+  input {
+    height:30px; 
+    width:250px"
+  }
+  
+  body {
+    background-image: url("contact1.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*ID created called Wrapper for entire page. Created for formatting entire content  */
+  #wrapper {
+    width:100%;
+    margin: auto;
+    display: flex;
+  
+  
+  }
+  
+  /*External styling to control the height and text alignment within the header  */
+  header{
+    height: 100px;
+    text-align: center;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 5%;
+    width: auto;
+  }
+  
+  /*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
+  .menu {
+    width: 20%;
+    float: left;
+    background-color:#140836;
+    color: #ececec;
+    overflow: hidden;
+    
+  }
+  
+  /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag. 
+  This is currently styling how the navigaitonal bar is displayed, the padding around each section and removing the text decorations */
+  .menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #ececec
+  }
+  
+  
+  /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the secitons. 
+  This is currently styling so that when the user hovers over a particular page the colour of the background changes */
+  .menu a:hover{
+    background-color: #1e0d48;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+  }
+  
+  
+  /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
+  associated with a class called current_page. 
+  This is currently styling that the page which is open and active will have a different coloured backgorund. This is to inform the user that this is
+  the page the */
+  .menu a.current_page {
+    background-color: rgba(87, 23, 95, 0.3);
+    color: #ececec;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  #content {
+    width:80%;
+    float: right;
+    background-color:#140836;
+    min-height: fit-content;
+    position: relative;
+  
+  
+  }
+  
+  section {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(87, 23, 95, 0.3);
+  
+  }
+  
+  footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #781d86;
+  }
