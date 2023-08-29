@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(180deg,black,rgb(17, 17, 17),black,yellow);
+    background-color: #000000;
 }
 
 #main_heading {
@@ -36,7 +36,7 @@ h4 {
 .section {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +47,18 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
 }
 
+.sidenav {
+    width: 15%;
+    float: left;
+    position:absolute;
+    background-color:#000000;
+    height: 100%;
+    
+}
+.content{
+    width: 80;
+    float: right;
+}
