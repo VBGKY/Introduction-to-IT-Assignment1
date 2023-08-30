@@ -3,6 +3,7 @@
 form{
   color:#ffffff;
   line-height: 2;
+  padding: 60px
 }
 
 li{
@@ -10,44 +11,9 @@ li{
   font-size:20px
 }
 
-#div_1 {
-  width:20%;
-  float:left;
-}
-
-#div_form1 {
-  width:25%;
-  float:left;
-}
-
-#fname {
-  height:30px; 
-  width:250px"
-}
-
-#lname {
-  height:30px; 
-  width:250px"
-}
-
-#email {
-  height:30px; 
-  width:250px"
-}
-
-#phone {
-  height:30px; 
-  width:250px"
-}
-
 input {
   height:30px; 
   width:250px"
-}
-
-@font-face {
-  font-family: 'retro';
-  src: url('/assets/fonts/Retro Gaming.ttf');
 }
 
 html, body {
@@ -56,10 +22,6 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   height: auto;
   box-sizing: border-box;
-}
-
-h2 {
-  color: #781d86;
 }
 
 p, a {
@@ -75,18 +37,10 @@ header {
   width: auto;
 }
 
-#header_title {
-  font-family: retro;
-  font-size: 3rem;
-  margin-top: 10%;
-  color: #ececec;
-}
-
 #wrapper {
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  left: 20%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 nav {
@@ -158,5 +112,51 @@ footer p {
   background-color: rgba(87, 23, 95, 0.3);
   color: #ececec;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #140836;
+    color: white;
+    padding: 0px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #140836;
+    border-radius: 5px;
+    background-color: #140836;
+    resize: none;
+    color:#ffffff
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff7e;
+}
+
+#contact_list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact_list li {
+  flex: 1; /* Allow items to grow and fill the space evenly */
+}
+
+#contact_list li:not(:last-child) {
+  margin-right: 20px; /* Add space between items, except the last one */
+  margin-left: 20px;
 }
