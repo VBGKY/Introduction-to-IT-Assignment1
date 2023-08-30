@@ -45,7 +45,7 @@ nav ul li a {
   list-style: none;
   display: block;
   font-size: 1.6rem;
-  color: #e6e6e6;
+  color: #ececec;
   padding: 10px 30px;
   text-decoration: none;
 }
@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 .menu a.current_page {
-  background-color: rgba(87, 23, 95, 0.3);
+  background-color: #57175f4d;
   color: #ececec;
   box-sizing: border-box;
   border-top-right-radius: 10px; 
@@ -82,13 +82,14 @@ main {
 }
 
 main p {
-  color: #e6e6e6;
+  color: #ececec;
 }
 
 #wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 20%;
 }
 
 section {
@@ -96,11 +97,11 @@ section {
   margin: 20px 0;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgba(87, 23, 95, 0.3);
+  background-color: #57175f4d;
 }
 
 li{
-  color:#ffffff;
+  color: #ececec;;
   font-size:20px
 }
 
@@ -121,7 +122,7 @@ li{
 }
 
 form{
-  color:#ffffff;
+  color:#ececec;
   line-height: 2;
   padding: 60px
 }
@@ -134,7 +135,7 @@ input {
 input[type="submit"],
 input[type="reset"] {
     background-color: #140836;
-    color: white;
+    color: #ececec;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -151,7 +152,7 @@ textarea {
     border-radius: 5px;
     background-color: #140836;
     resize: none;
-    color:#ffffff
+    color: #ececec;
 }
 
 input::placeholder,
