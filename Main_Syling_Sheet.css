@@ -53,7 +53,7 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
 .menu ul{
     list-style-type: none;
 }
-.upper_list a{
+.main_list a{
     border-left: 2px solid #1f60e1;
 
 }
@@ -64,6 +64,8 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     border-left: 2px solid #781d86;;
 
 }
+
+
 
 
 
