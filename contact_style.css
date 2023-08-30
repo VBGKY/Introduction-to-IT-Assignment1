@@ -58,11 +58,6 @@ html, body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: 'retro';
-  src: url('/assets/fonts/Retro Gaming.ttf');
-}
-
 h2 {
   color: #781d86;
 }
@@ -137,7 +132,6 @@ section {
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(87, 23, 95, 0.3);
-  /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
 }
 
 footer {
