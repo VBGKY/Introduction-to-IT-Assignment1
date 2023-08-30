@@ -1,31 +1,11 @@
 /* Adrian */
 
-form{
-  color:#ffffff;
-  line-height: 2;
-  padding: 60px
-}
-
-li{
-  color:#ffffff;
-  font-size:20px
-}
-
-input {
-  height:30px; 
-  width:250px"
-}
-
 html, body {
   background-color: #140836;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   height: auto;
   box-sizing: border-box;
-}
-
-p, a {
-  font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -37,10 +17,17 @@ header {
   width: auto;
 }
 
-#wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+footer {
+  position: relative;
+  margin-right: 30px;
   padding: 20px;
+  right: 0;
+  height: auto;
+  border-top: 2px solid #781d86; 
+}
+
+footer p {
+  color: #781d86;
 }
 
 nav {
@@ -67,40 +54,6 @@ nav ul li a:hover {
   background-color: #1e0d48;
 }
 
-
-main {
-  position: relative;
-  margin-right: 30px;
-  padding: 0 30px;
-  right: 0;
-  height: auto;
-}
-
-main p {
-  color: #e6e6e6;
-}
-
-section {
-  box-sizing: border-box;
-  margin: 20px 0;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(87, 23, 95, 0.3);
-}
-
-footer {
-  position: relative;
-  margin-right: 30px;
-  padding: 20px;
-  right: 0;
-  height: auto;
-  border-top: 2px solid #781d86; 
-}
-
-footer p {
-  color: #781d86;
-}
-
 .menu a:hover{
   background-color: #1e0d48;
   box-sizing: border-box;
@@ -114,6 +67,68 @@ footer p {
   box-sizing: border-box;
   border-top-right-radius: 10px; 
   border-bottom-right-radius: 10px; 
+}
+
+p, a {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+  position: relative;
+  margin-right: 30px;
+  padding: 0 30px;
+  right: 0;
+  height: auto;
+}
+
+main p {
+  color: #e6e6e6;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(87, 23, 95, 0.3);
+}
+
+li{
+  color:#ffffff;
+  font-size:20px
+}
+
+#contact_list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact_list li {
+  flex: 1; 
+}
+
+#contact_list li:not(:last-child) {
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+
+form{
+  color:#ffffff;
+  line-height: 2;
+  padding: 60px
+}
+
+input {
+  height:30px; 
+  width:250px"
 }
 
 input[type="submit"],
@@ -143,20 +158,4 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     color: #ffffff7e;
-}
-
-#contact_list ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-#contact_list li {
-  flex: 1; /* Allow items to grow and fill the space evenly */
-}
-
-#contact_list li:not(:last-child) {
-  margin-right: 20px; /* Add space between items, except the last one */
-  margin-left: 20px;
 }
