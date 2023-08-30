@@ -36,8 +36,7 @@ header{
     background-color:#140836;
     color: #ececec;
     overflow: hidden;
-    padding-top: 20px;
-    
+    padding-top: 20px;    
 }
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag. 
@@ -52,12 +51,14 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     border-radius:  10px;
 }
 
+.menu ul{
+    list-style-type: none;
+}
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the seciton. 
 This is currently styling so that when the user hovers their mouse over a particular page, the colour of the background changes */  
 .menu a:hover{
     background-color:#1e0d48;
-    border: 2px solid #781d86;
 }
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
