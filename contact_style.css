@@ -135,7 +135,6 @@ input[type="submit"],
 input[type="reset"] {
     background-color: #140836;
     color: white;
-    padding: 0px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
