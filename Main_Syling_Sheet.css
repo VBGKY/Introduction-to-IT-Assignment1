@@ -48,18 +48,31 @@ This is currently styling how the navigaitonal bar is displayed, the padding aro
     color: #ececec;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
-    border-radius:  10px;
-    border: 2px solid #781d86;
 }
 
 .menu ul{
     list-style-type: none;
 }
+.upper_list a{
+    border-left: 2px solid #1f60e1;
+
+}
+.sub_list a{
+    border-left: 2px solid #e74ed5;
+}
+.inner_sub_list a{
+    border-left: 2px solid #781d86;;
+
+}
+
+
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the seciton. 
 This is currently styling so that when the user hovers their mouse over a particular page, the colour of the background changes */  
 .menu a:hover{
     background-color:#1e0d48;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
@@ -70,7 +83,8 @@ the page the */
     background-color: rgba(87, 23, 95, 0.3);
     color: #ececec;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
