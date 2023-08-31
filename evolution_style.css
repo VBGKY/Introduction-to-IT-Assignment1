@@ -115,3 +115,22 @@ section {
   margin-right: auto;
   width: 50%;
 }
+
+.section-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-buttons button {
+  padding: 10px 20px;
+  background-color: #140836;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-buttons button:hover {
+  background-color: #1b0b58;
+}
