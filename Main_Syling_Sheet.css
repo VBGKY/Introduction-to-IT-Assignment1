@@ -151,9 +151,11 @@ section {
     border-radius: 10px;
 }
 
+
 .content_image .image_content:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }
+
 
 table{
     font-family: 'Courier New', Courier, monospace;
