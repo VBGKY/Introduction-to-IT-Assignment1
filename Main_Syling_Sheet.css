@@ -77,6 +77,21 @@ This is currently styling so that when the user hovers their mouse over a partic
     border-top-right-radius: 10px;
 }
 
+.main_list a:hover{
+    border: 2px solid #1f60e1;
+
+}
+
+.sub_list a:hover{
+    border: 2px solid #e74ed5;
+}
+
+.inner_sub_list a:hover{
+    border: 2px solid #781d86;;
+
+}
+
+
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
 associated with a class called current_page. 
 This is currently styling that the page which is open and active will have a different coloured backgorund. This is to inform the user that this is
@@ -85,8 +100,9 @@ the page the */
     background-color: rgba(87, 23, 95, 0.3);
     color: #ececec;
     box-sizing: border-box;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #1f60e1;
+    border-style:dashed;
 }
 
 
@@ -111,9 +127,44 @@ section {
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
     border: 2px solid #781d86;
-
 }
 
+.content_image{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+}
+
+.image_content{
+    opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ececec;
+    background-color: #e74ed5;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content_image .image_content:hover{
+    opacity: 1;
+}
+
+.content_image .image_content .text{
+    height: 0;
+    opacity: 1;
+}
+
+.content_image .image_content:hover .text{
+    opacity: 1;
+}
+
+table{
+    font-family: 'Courier New', Courier, monospace;
+}
 footer{
     position: relative;
     bottom: 0;
@@ -122,3 +173,4 @@ footer{
     background-color: #140836;
     text-align: center;
 }
+
