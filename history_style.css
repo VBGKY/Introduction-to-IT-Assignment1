@@ -60,14 +60,10 @@ main {
     height: auto;
 }
 
-main p {
-    color: #e6e6e6;
-}
-
 section {
     box-sizing: border-box;
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
     /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
