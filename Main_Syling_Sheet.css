@@ -123,11 +123,50 @@ the page the */
 section {
     box-sizing: border-box;
     margin: 20px;
-    padding: 10px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
     border: 2px solid #781d86;
 
+}
+
+.content_image{
+    position: relative;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.image_content{
+    opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: #ececec;
+    background-color:#e74ed5;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.content_image .image_content:hover{
+    opacity: 1;
+}
+
+.content_image .image_content .text{
+    height: 0;
+    opacity: 1;
+}
+
+.content_image .image_content:hover .text{
+    opacity: 1;
 }
 
 footer{
