@@ -123,20 +123,17 @@ the page the */
 section {
     box-sizing: border-box;
     margin: 20px;
+    padding: 10px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
     border: 2px solid #781d86;
-
 }
 
 .content_image{
     position: relative;
-    padding: 0;
-    display: block;
     cursor: pointer;
     overflow: hidden;
-    width: 150px;
-    height: 150px;
+    display: block;
 }
 
 .image_content{
@@ -144,16 +141,12 @@ section {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-
     color: #ececec;
-    background-color:#e74ed5;
-    width: 150px;
-    height: 20px;
+    background-color: #e74ed5;
     text-align: center;
     border-radius: 10px;
-
 }
 
 .content_image .image_content:hover{
