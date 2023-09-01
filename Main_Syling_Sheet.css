@@ -103,9 +103,10 @@ the page the */
     color: #ececec;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 2px solid #1f60e1;
-    border-style:dashed;
 }
+
+.reference-page-images{display: inline-block;}
+
 
 
 /*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location, background colour, minimum height and position of the elements contained with contents*/
@@ -150,6 +151,8 @@ section {
     color: #ececec;
     background-color:#781d86;
     text-align: center;
+    width: 232px;
+    height: 300px;
 }
 
 
