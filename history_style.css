@@ -61,23 +61,27 @@ main {
 }
 
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
-    /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
-}
-
-section {
-    display: flex;
-    align-items: center;
 }
 
 section img {
     max-width: 400px;
     border-radius: 10px;
+}
+
+.img_left {
     margin-right: 20px;
+}
+
+.img_right {
+    margin-left: 20px;
 }
 
 footer {
