@@ -102,6 +102,7 @@ table{
     display: inline-block;
     width: 208px;
     height: 270px;
+    padding-right:10px ;
 }
 
 /*External styling CSS refering to the .image_content class. This class contains the styling for the text section that is presented when the user hovers over the 
