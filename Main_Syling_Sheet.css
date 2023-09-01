@@ -109,17 +109,13 @@ section {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
+    padding: 20px;
 }
 
 /*External styling CSS to style fonr that is present within the table.*/
 table{
     font-family: 'Courier New', Courier, monospace;
 }
-
-
-
-
-
 
 /*External styling CSS referencing the .content_image class created. This styles the positionoverflow, display, height and width of the class.*/
 .content_image{
