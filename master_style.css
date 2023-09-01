@@ -20,6 +20,10 @@ html, body {
     color: #ececec;
 }
 
+h2, p {
+    color: #e6e6e6;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
 }
