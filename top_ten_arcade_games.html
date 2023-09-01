@@ -282,14 +282,15 @@
 
                     <section>
                         <h2>BONUS: The website developer team's favourite arcade games</h2>
-                        <p>Hover over each of the images below to discover which team members arcade game was their favourite and why!</p>
-                        
-                        <!--DIV created allow for formatting the images to be aligned horizontally using the inline-block method.-->
-                        <div>
-                            <!--The same method to allow for a description to appear when images were hovered over as line 91, except that is includes addtional inline CSS styling of to display the images aligned horizontally by using the display:inline-block styling to do so.-->
-                          <div class="content_image">
+                        <p>Hover over each of the images below to discover which team members arcade game was their favourite and why!</p>                        
+                       
+                        <!--DIV created with a class (content_image) which contains the chosen image and inner DIV class. This allows for control of the formatting of the image and the inner DIV element.-->
+                        <div class="content_image">
+                            <!--Inclusion of image using the <img> HTML tag. Includes inline styling for the width, height and alternative text.-->
                             <img src="assets/pics/698px-Space_Invaders_flyer.jpg" width="208px" height="270" alt="Space Invaders Flyer">
+                            <!--DIV created with a class (image_content) this DIV element contains the inner class (text) and allows for styling and formatting which allows for the overlay to appear when the user hovers over it.-->
                             <div class="image_content">
+                                <!--DIV created with a class (text) which only contains the text which is to be present within the overlay when a user hovers over the element-->
                                 <div class="text"> <strong>Victoria Breu</strong><br>"My favourite arcade game to play was space invaders. I loved the simple gamplay mechanics combined with various space themed challenging levels."</div>
                             </div>
                         </div>
@@ -320,9 +321,7 @@
                             <div class="image_content">
                                 <div class="text"> <strong>Ahsan Ali</strong><br>.</div>
                             </div>
-                        </div>  
-
-                        </div>                      
+                        </div>                                               
                     </section>
                 </main>                
                 <!-- Sections of the HTML page with conotains the footer. All styling elements are contained within the associated styling sheet.-->

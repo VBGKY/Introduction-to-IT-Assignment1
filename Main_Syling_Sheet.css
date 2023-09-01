@@ -16,7 +16,7 @@ body{
 
 }
 
-/*External styling CSS to control the height and text alignment within the header.*/
+/*External styling CSS to style the height and text alignment within the header.*/
 header{
     height: 300px;
     background-size: 100% 100%;
@@ -122,6 +122,7 @@ the page the */
 #content a {
     color: #e74ed5;
 }
+
 /*External styling CSS to style the styling of the section boarders, margins, padding and background colour.*/
 section {
     box-sizing: border-box;
@@ -132,6 +133,7 @@ section {
     border: 2px solid #781d86;
 }
 
+/*External styling CSS referencing the .content_image class created. This styles the position, cursor, overflow, display, height and width of the class.*/
 .content_image{
     position: relative;
     cursor: pointer;
@@ -141,6 +143,8 @@ section {
     height: 270px;
 }
 
+/*External styling CSS refering to the .image_content class. This class contains the styling for the text section that is presented when the user hovers over the 
+associated image. The opacity in this class is set to zero to hide the element from being revealed until the user hovers over the element.*/
 .image_content{
     opacity: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -155,15 +159,17 @@ section {
     height: 270px;
 }
 
-
+/*External styling CSS refering to the .content_image and .image_content classes with the addition of hte :hover aspect meaning that this aspect is only present when the user hovers over the associated element.
+Witin this the opacity of the 2 classes is set to 0.8 (80%) when the user hovers over the associated element.*/
 .content_image .image_content:hover{
     opacity: 0.8;
 }
 
-
+/*External styling CSS to style fonr that is present within the table.*/
 table{
     font-family: 'Courier New', Courier, monospace;
 }
+/*External styling CSS to format and style the footer within the webpage. This includes setting the position, width, bored, background colour and text alignment.*/
 footer{
     position: relative;
     bottom: 0;
