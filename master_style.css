@@ -20,6 +20,11 @@ html, body {
     color: #ececec;
 }
 
+h2 {
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h2, p {
     color: #e6e6e6;
 }
