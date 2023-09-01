@@ -69,6 +69,17 @@ section {
     /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
 }
 
+section {
+    display: flex;
+    align-items: center;
+}
+
+section img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
 footer {
     position: relative;
     margin-right: 30px;
