@@ -133,10 +133,9 @@ section {
     border: 2px solid #781d86;
 }
 
-/*External styling CSS referencing the .content_image class created. This styles the position, cursor, overflow, display, height and width of the class.*/
+/*External styling CSS referencing the .content_image class created. This styles the positionoverflow, display, height and width of the class.*/
 .content_image{
     position: relative;
-    cursor: pointer;
     overflow: hidden;
     display: inline-block;
     width: 208px;
