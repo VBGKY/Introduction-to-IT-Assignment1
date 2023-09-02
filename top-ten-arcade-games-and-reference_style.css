@@ -13,7 +13,7 @@
 }
 
 /*ID created called Wrapper for formatting the entirety of the webpage.*/
-#nav-and-main-wrapper {
+#nav-main-and-footer-wrapper {
     width:100%;
     margin: auto;
     display: flex;
@@ -72,7 +72,7 @@ the page the */
 }
 
 /*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location, background colour, minimum height and position of the elements contained with contents*/
-#content {
+#main-and-footer-wrapper {
     width:80%;
     float: right;
     background-color:#140836;
@@ -81,7 +81,7 @@ the page the */
 }
 
 /*External CSS altering the colour of the font for any HTML elements within the content ID section that used the <a> HTML tag.*/
-#content a {
+#main-and-footer-wrapper a {
     color: #e74ed5;
     font-style: italic;
 }
