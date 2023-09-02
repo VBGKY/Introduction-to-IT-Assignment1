@@ -4,8 +4,8 @@
 <!--Created by Victoria Frieda Breu (U3187870) -->
 
 
-/*External styling to alter the font, font-size and fony weight of any text contained within the body portion of the HTML coding.*/
-body{
+/*Wrapper class created for format the body*/
+.wrapper{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: normal;
@@ -13,7 +13,7 @@ body{
 }
 
 /*ID created called Wrapper for formatting the entirety of the webpage.*/
-#wrapper {
+#nav-and-main-wrapper {
     width:100%;
     margin: auto;
     display: flex;
