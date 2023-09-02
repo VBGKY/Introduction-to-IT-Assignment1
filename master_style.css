@@ -1,0 +1,35 @@
+/* Anas */
+/* This is a Master CSS file which contains the common styling of all the pages. */
+
+@font-face {
+    font-family: 'retro';
+    src: url('assets/fonts/Retro Gaming.ttf');
+}
+
+html, body {
+    background-color: #140836;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#header_title {
+    font-family: retro;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #ececec;
+}
+
+h2 {
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, p {
+    color: #e6e6e6;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}

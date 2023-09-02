@@ -1,0 +1,98 @@
+/* Anas */
+
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-image: url('assets/pics/history_header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    background-color: #1e0d48;
+    padding: 5%;
+    width: auto;
+    height: 300px;
+}
+
+#wrapper {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 20%;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: 20%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li a {
+    list-style: none;
+    display: block;
+    font-size: 1.6rem;
+    color: #e6e6e6;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1e0d48;
+}
+
+main {
+    position: relative;
+    margin-right: 30px;
+    padding: 0 30px;
+    right: 0;
+    height: auto;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(87, 23, 95, 0.3);
+}
+
+section img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.img_left {
+    margin-right: 20px;
+}
+
+.history_content {
+    float: left;
+}
+
+.img_right {
+    float: right;
+    margin-left: 20px;
+}
+
+footer {
+    position: relative;
+    margin-right: 30px;
+    padding: 20px;
+    right: 0;
+    height: auto;
+    border-top: 2px solid #781d86; 
+}
+
+footer p {
+    color: #781d86;
+}

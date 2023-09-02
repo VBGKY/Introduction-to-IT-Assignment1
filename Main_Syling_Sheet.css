@@ -1,53 +1,64 @@
+/*Introduction to Information Technology (4478): Assignment 1 - Design elements in HTML -->
+<!--The following is the external styling sheet connected to the Reference webpage and Top Ten Arcade Games webpage. -->
+
+<!--Created by Victoria Frieda Breu (U3187870) -->
 
 
-/*ID created called Wrapper for entire page. Created for formatting entire content  */
+/*External styling to alter the font, font-size and fony weight of any text contained within the body portion of the HTML coding.*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+/*ID created called Wrapper for formatting the entirety of the webpage.*/
 #wrapper {
     width:100%;
     margin: auto;
     display: flex;
-
-
 }
 
-/*External styling CSS to control the height and text alignment within the header  */
+/*External styling CSS to style the height and text alignment within the header.*/
 header{
-    height: 100px;
-    text-align: center;
+    height: 300px;
     background-size: 100% 100%;
     background-position: center;
     padding: 5%;
     width: auto;
 }
 
-/*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
+#header_title{
+    text-align: center;
+}
+
+/*Menu class created to control aspects of syling/formatting aspects of the navigational bar. Included below is controlling the width, location, background colour, the overflow being hidden and includes padding on top. */
 .menu {
     width: 20%;
     float: left;
     background-color:#140836;
     color: #ececec;
     overflow: hidden;
-    
+    padding-top: 20px;    
 }
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag. 
-This is currently styling how the navigaitonal bar is displayed, the padding around each section and removing the text decorations */
+This is currently styling how the navigaitonal bar is displayed, the padding around each section and removing the text decorations, colour of the text, that font that is used for the text and the size of the font. */
 .menu a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: #ececec
+    color: #ececec;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
 }
 
-
-/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the secitons. 
-This is currently styling so that when the user hovers over a particular page the colour of the background changes */
+/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the seciton. 
+This is currently styling so that when the user hovers their mouse over a particular page, the colour of the background changes */  
 .menu a:hover{
-    background-color: #1e0d48;
-    box-sizing: border-box;
-    border-radius: 10px;
-
+    background-color:#1e0d48;
+    border-radius: 10px;    
 }
-
 
 /*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
 associated with a class called current_page. 
@@ -60,18 +71,19 @@ the page the */
     border-radius: 10px;
 }
 
-
-/*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location background colour, minimum height and position of the elements contained with contents*/
+/*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location, background colour, minimum height and position of the elements contained with contents*/
 #content {
     width:80%;
     float: right;
     background-color:#140836;
     min-height: fit-content;
-    position: relative;
-
-
+    position:relative
 }
 
+/*External CSS altering the colour of the font for any HTML elements within the content ID section that used the <a> HTML tag.*/
+#content a {
+    color: #e74ed5;
+}
 
 /*External styling CSS to style the styling of the section boarders, margins, padding and background colour.*/
 section {
@@ -80,9 +92,51 @@ section {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
-
+    padding: 20px;
 }
 
+/*External styling CSS to style fonr that is present within the table.*/
+table{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*External styling CSS referencing the .content_image class created. This styles the positionoverflow, display, height and width of the class.*/
+.content_image{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 208px;
+    height: 270px;
+    padding-right:10px ;
+}
+
+/*External styling CSS refering to the .image_content class. This class contains the styling for the text section that is presented when the user hovers over the 
+associated image. The opacity in this class is set to zero to hide the element from being revealed until the user hovers over the element.*/
+.image_content{
+    opacity: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ececec;
+    background-color:#781d86;
+    text-align: center;
+    width: 208px;
+    height: 270px;
+}
+
+.text{
+    padding: 5px;
+}
+
+/*External styling CSS refering to the .content_image and .image_content classes with the addition of hte :hover aspect meaning that this aspect is only present when the user hovers over the associated element.
+Witin this the opacity of the 2 classes is set to 0.8 (80%) when the user hovers over the associated element.*/
+.content_image .image_content:hover{
+    opacity: 0.8;
+}
+
+/*External styling CSS to format and style the footer within the webpage. This includes setting the position, width, bored, background colour and text alignment.*/
 footer{
     position: relative;
     bottom: 0;
@@ -91,3 +145,4 @@ footer{
     background-color: #140836;
     text-align: center;
 }
+
