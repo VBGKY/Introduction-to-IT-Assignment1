@@ -21,7 +21,7 @@ h1 {
     margin: 15px;
     z-index: 1;
     text-shadow: #781d86;
-    color:yellow;
+    color:#781d86;
     box-shadow: #781d86;
     text-rendering: auto;
     text-decoration-color: #781d86;
@@ -38,7 +38,7 @@ p, a {
 }
 
 header {
-    background-image: url(Pacman1.png);
+    background-image: url(pcmn.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
