@@ -4,8 +4,8 @@
 <!--Created by Victoria Frieda Breu (U3187870) -->
 
 
-/*External styling to alter the font, font-size and fony weight of any text contained within the body portion of the HTML coding.*/
-body{
+/*Wrapper class created for format the body*/
+.wrapper{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: normal;
@@ -13,7 +13,7 @@ body{
 }
 
 /*ID created called Wrapper for formatting the entirety of the webpage.*/
-#wrapper {
+#nav-main-and-footer-wrapper {
     width:100%;
     margin: auto;
     display: flex;
@@ -72,7 +72,7 @@ the page the */
 }
 
 /*External CSS to style the elements contained within the #contents ID section. This is currently styling the width, location, background colour, minimum height and position of the elements contained with contents*/
-#content {
+#main-and-footer-wrapper {
     width:80%;
     float: right;
     background-color:#140836;
@@ -81,8 +81,9 @@ the page the */
 }
 
 /*External CSS altering the colour of the font for any HTML elements within the content ID section that used the <a> HTML tag.*/
-#content a {
+#main-and-footer-wrapper a {
     color: #e74ed5;
+    font-style: italic;
 }
 
 /*External styling CSS to style the styling of the section boarders, margins, padding and background colour.*/
