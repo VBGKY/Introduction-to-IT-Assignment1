@@ -1,98 +1,59 @@
-form{
-  color:#ffffff;
-  line-height: 2;
-}
+/* Adrian */
 
-p{
-  color:#ffffff
-}
-
-li{
-  color:#ffffff;
-  font-size:20px
-}
-
-#div_1 {
-  width:20%;
-  float:left;
-}
-
-#div_form1 {
-  width:25%;
-  float:left;
-}
-
-#fname {
-  height:30px; 
-  width:250px"
-}
-
-#lname {
-  height:30px; 
-  width:250px"
-}
-
-#email {
-  height:30px; 
-  width:250px"
-}
-
-#phone {
-  height:30px; 
-  width:250px"
-}
-
-input {
-  height:30px; 
-  width:250px"
-}
-
-body {
-  background-image: url("contact1.jpg");
+html, body {
+  background-color: #140836;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+  box-sizing: border-box;
 }
 
-/*ID created called Wrapper for entire page. Created for formatting entire content  */
-#wrapper {
-  width:100%;
-  margin: auto;
-  display: flex;
-
-
-}
-
-/*External styling to control the height and text alignment within the header  */
-header{
-  height: 100px;
+header {
+  height: 300px;
   text-align: center;
-  background-size: 100% 100%;
+  background-size: 100% 130%;
   background-position: center;
   padding: 5%;
   width: auto;
 }
 
-/*Menu class created to control aspects of the navigational bar. Included below is controlling the width, location, background colour and the overflow being hidden  */
-.menu {
-  width: 20%;
-  float: left;
-  background-color:#140836;
-  color: #ececec;
-  overflow: hidden;
-  
-}
-
-/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag. 
-This is currently styling how the navigaitonal bar is displayed, the padding around each section and removing the text decorations */
-.menu a {
-  display: block;
+footer {
+  position: relative;
+  margin-right: 30px;
   padding: 20px;
-  text-decoration: none;
-  color: #ececec
+  right: 0;
+  height: auto;
+  border-top: 2px solid #781d86; 
 }
 
+footer p {
+  color: #781d86;
+}
 
-/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag when a user hovers their mouse over the secitons. 
-This is currently styling so that when the user hovers over a particular page the colour of the background changes */
+nav {
+  position: absolute;
+  left: 0;
+  height: auto;
+  width: 20%;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li a {
+  list-style: none;
+  display: block;
+  font-size: 1.6rem;
+  color: #ececec;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #1e0d48;
+}
+
 .menu a:hover{
   background-color: #1e0d48;
   box-sizing: border-box;
@@ -100,40 +61,112 @@ This is currently styling so that when the user hovers over a particular page th
 
 }
 
-
-/*Controling the styling within the Nav section, however this controls the styling within the Nav sections that use the <a> HTML tag and is 
-associated with a class called current_page. 
-This is currently styling that the page which is open and active will have a different coloured backgorund. This is to inform the user that this is
-the page the */
 .menu a.current_page {
-  background-color: rgba(87, 23, 95, 0.3);
+  background-color: #57175f4d;
   color: #ececec;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px; 
 }
 
-#content {
-  width:80%;
-  float: right;
-  background-color:#140836;
-  min-height: fit-content;
+p, a {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
   position: relative;
+  margin-right: 30px;
+  padding: 0 30px;
+  right: 0;
+  height: auto;
+}
 
+main p {
+  color: #ececec;
+}
 
+#wrapper {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 20%;
 }
 
 section {
   box-sizing: border-box;
-  margin: 20px;
+  margin: 20px 0;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgba(87, 23, 95, 0.3);
-
+  background-color: #57175f4d;
 }
 
-footer{
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px solid #781d86;
+li{
+  color: #ececec;;
+  font-size:20px
+}
+
+#contact_list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact_list li {
+  flex: 1; 
+}
+
+#contact_list li:not(:last-child) {
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+
+form{
+  color:#ececec;
+  line-height: 2;
+  padding: 60px
+}
+
+input {
+  height:30px; 
+  width:250px
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #140836;
+  color: #ececec;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #1b0b58;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #140836;
+    border-radius: 5px;
+    background-color: #140836;
+    resize: none;
+    color: #ececec;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff7e;
 }

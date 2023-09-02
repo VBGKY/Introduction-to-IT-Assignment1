@@ -1,9 +1,5 @@
 /* Anas */
 
-h2 {
-    color: #781d86;
-}
-
 p, a {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -51,7 +47,6 @@ nav ul li a:hover {
     background-color: #1e0d48;
 }
 
-
 main {
     position: relative;
     margin-right: 30px;
@@ -60,17 +55,33 @@ main {
     height: auto;
 }
 
-main p {
-    color: #e6e6e6;
-}
-
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     background-color: rgba(87, 23, 95, 0.3);
-    /*Hi Anas, great colour scheme, just remember all the colours we select must be in hexidecinal as per the assignment! :)  */
+}
+
+section img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.img_left {
+    margin-right: 20px;
+}
+
+.history_content {
+    float: left;
+}
+
+.img_right {
+    float: right;
+    margin-left: 20px;
 }
 
 footer {
