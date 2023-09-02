@@ -1,31 +1,23 @@
-/* ahsan */
-
 @font-face {
     font-family: 'retro';
-    src: url('C:\Users\Sharoz Rafiq Baig\Desktop\PACMAN\Introduction-to-IT-Assignment1\assets\fonts\Retro Gaming.ttf');
+    src: url(Introduction-to-IT-Assignment1\assets\fonts\RetroGaming.ttf)
 }
 
 html, body {
-    background-color: rgb(10, 10, 10);
+    background-color: #140836;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
     box-sizing: border-box;
 }
+.image-and-text {
+    display: flex; 
+    align-items: center; 
+}
 
-h1 {
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 6rem;
-    padding: 30px;
-    margin: 15px;
-    z-index: 1;
-    text-shadow: #781d86;
-    color:yellow;
-    box-shadow: #781d86;
-    text-rendering: auto;
-    text-decoration-color: #781d86;
-    opacity: 1;
+
+.text1 {
+    margin-left: 30px; 
 }
 
 h2 {
@@ -33,12 +25,23 @@ h2 {
     color: #781d86;
 }
 
+.image-and-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Add some margin or padding for spacing */
+ul {
+    margin-left: 30px; /* Adjust the margin as needed */
+}
+
+
 p, a {
     font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    background-image: url(Introduction-to-IT-Assignment1\assets\pics\Pacman1.png);
+    background-image: url(Introduction-to-IT-Assignment1\assets\pics\pac1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -47,7 +50,16 @@ header {
     padding: 5%;
     width: auto;
     height: 300px;
-    opacity: 0.7;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#header_title {
+    font-family: retro;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #d3cf05;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #wrapper {
@@ -78,8 +90,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #0d061f;
+    background-color: #1e0d48;
 }
+
 
 main {
     position: relative;
@@ -98,8 +111,8 @@ section {
     margin: 20px 0;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(10, 10, 10, 10);
-    
+    background-color: rgba(87, 23, 95, 0.3);
+   
 }
 
 footer {
