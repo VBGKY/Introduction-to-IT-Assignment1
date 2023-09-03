@@ -197,6 +197,10 @@ section p{
     }
 }
 
+img{
+    border-radius: 6%;
+}
+
 .turn{
     width: 70%;
     margin: auto;
