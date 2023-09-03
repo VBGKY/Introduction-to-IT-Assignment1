@@ -127,9 +127,14 @@ form{
   padding: 60px
 }
 
+.form-input {
+  margin-top: 10px !important;
+}
+
 input {
   height:30px; 
-  width:250px
+  width:250px;
+  margin-bottom: 10px;
 }
 
 .button-container {
@@ -156,7 +161,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 99%;
+    width: 98.3%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #140836;
@@ -169,4 +174,8 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     color: #ffffff7e;
+}
+
+table{
+  font-family: 'Courier New', Courier, monospace;
 }
