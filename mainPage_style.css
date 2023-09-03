@@ -63,6 +63,10 @@ nav ul li a:hover{
     text-align: center;
     padding: 2rem;
 
+    /* You'll probably need to put this (#header_title) outside of this (.header) element. 
+        Nesting don't work in CSS this way.
+        I'm not changing it yet cuz maybe you notice this while doing your pages :) 
+    */
     #header_title{
         font-family: retro;
         font-size: 3rem;
