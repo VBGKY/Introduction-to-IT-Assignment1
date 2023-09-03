@@ -121,16 +121,18 @@ section {
   justify-content: space-between;
 }
 
-.section-buttons button {
+.button-link {
+  display: inline-block;
   padding: 10px 20px;
   background-color: #140836;
-  color: #ffffff;
+  color: #fff;
+  text-decoration: none;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
-.section-buttons button:hover {
+.button-link:hover {
   background-color: #1b0b58;
 }
