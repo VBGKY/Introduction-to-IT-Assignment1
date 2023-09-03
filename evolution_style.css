@@ -27,7 +27,8 @@ footer {
 }
 
 footer p {
-  color: #781d86;
+  color: #ececec;
+  margin-left: 10px;
 }
 
 nav {
